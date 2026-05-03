@@ -424,7 +424,7 @@ export const services: Service[] = [
     faqs: [
       {
         q: "Which areas of Palwal do you cover for home visits?",
-        a: "We cover all of Palwal city and surrounding areas including Hodal, Hassanpur, and Hathin. Call us with your address to confirm.",
+        a: "We cover all of Palwal city and surrounding areas including Ballabgarh, Faridabad, Hodal, Hassanpur, and Hathin. Call us with your address to confirm.",
       },
       {
         q: "Is home physiotherapy more expensive than clinic visits?",

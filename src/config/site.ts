@@ -2,6 +2,7 @@ export const site = {
   name: "Physio Grade",
   legalName: "Physio Grade Physiotherapy Centre",
   tagline: "Expert Physiotherapy in Palwal",
+  clinicTagline: "Satisfying Solution for Muscles and Joints",
   shortPitch:
     "Pain relief, sports rehab, and home-visit physiotherapy delivered by licensed physiotherapists in the heart of Palwal.",
   // E.164 format for tel: links (no spaces, no dashes)

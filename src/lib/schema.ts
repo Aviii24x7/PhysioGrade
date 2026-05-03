@@ -31,6 +31,8 @@ export const localBusinessSchema = () => ({
     { "@type": "City", name: "Hodal" },
     { "@type": "City", name: "Hassanpur" },
     { "@type": "City", name: "Hathin" },
+    { "@type": "City", name: "Ballabgarh" },
+    { "@type": "City", name: "Faridabad" },
   ],
   aggregateRating: {
     "@type": "AggregateRating",

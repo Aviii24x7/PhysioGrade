@@ -3,6 +3,7 @@ import { CallButton } from "../ui/CallButton";
 import { WhatsAppButton } from "../ui/WhatsAppButton";
 import { site } from "../../config/site";
 
+
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-surface-tint via-white to-white">

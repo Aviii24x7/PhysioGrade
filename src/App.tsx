@@ -10,6 +10,7 @@ const ServicesIndex = lazy(() => import("./routes/ServicesIndex"));
 const ServiceDetail = lazy(() => import("./routes/ServiceDetail"));
 const Conditions = lazy(() => import("./routes/Conditions"));
 const Videos = lazy(() => import("./routes/Videos"));
+const Gallery = lazy(() => import("./routes/Gallery"));
 const Contact = lazy(() => import("./routes/Contact"));
 const NotFound = lazy(() => import("./routes/NotFound"));
 
@@ -43,6 +44,7 @@ export default function App() {
             <Route path="/services/:slug" element={<ServiceDetail />} />
             <Route path="/conditions" element={<Conditions />} />
             <Route path="/videos" element={<Videos />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

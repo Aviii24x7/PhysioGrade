@@ -3,7 +3,9 @@ import { ValueProps } from "../components/sections/ValueProps";
 import { ServicesGrid } from "../components/sections/ServicesGrid";
 import { ConditionsChips } from "../components/sections/ConditionsChips";
 import { HowItWorks } from "../components/sections/HowItWorks";
-import { VideoGallery } from "../components/sections/VideoGallery";
+// import { VideoGallery } from "../components/sections/VideoGallery"; // Uncomment when YouTube videos are ready
+import { OurWorkGallery } from "../components/sections/OurWorkGallery";
+import { MeetOurTeam } from "../components/sections/MeetOurTeam";
 import { Testimonials } from "../components/sections/Testimonials";
 import { LocationBlock } from "../components/sections/LocationBlock";
 import { FAQSection } from "../components/sections/FAQSection";
@@ -26,7 +28,8 @@ export default function Home() {
       <ServicesGrid />
       <ConditionsChips />
       <HowItWorks />
-      <VideoGallery />
+      <OurWorkGallery />
+      <MeetOurTeam />
       <Testimonials />
       <LocationBlock />
       <FAQSection />

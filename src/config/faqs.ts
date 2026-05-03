@@ -11,7 +11,7 @@ export const homeFaqs: FAQ[] = [
   },
   {
     q: "Do you provide home physiotherapy in Palwal?",
-    a: "Yes. We deliver home-visit physiotherapy across Palwal city and nearby areas (Hodal, Hassanpur, Hathin, and more). It's the best option for post-surgery patients, elderly care, and anyone who can't travel.",
+    a: "Yes. We deliver home-visit physiotherapy across Palwal city and nearby areas (Ballabgarh, Faridabad, Hodal, Hassanpur, Hathin, and more). It's the best option for post-surgery patients, elderly care, and anyone who can't travel.",
   },
   {
     q: "What does a typical session cost?",
