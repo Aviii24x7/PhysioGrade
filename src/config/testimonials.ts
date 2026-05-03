@@ -1,61 +1,63 @@
 export type Testimonial = {
   name: string;
-  age?: number;
-  area?: string;
-  rating: number; // 1–5
+  reviewCount?: string;
+  badge?: string;
+  rating: number;
   body: string;
   treatment: string;
+  timeAgo: string;
+  featured?: boolean;
 };
 
-// TODO: Replace these placeholders with real Google reviews after launch.
-// Pull names + quotes from your Google Business Profile (with reviewer permission).
+// Real Google reviews from Physio Grade's Google Business Profile.
 export const testimonials: Testimonial[] = [
   {
-    name: "Rajeev Sharma",
-    age: 56,
-    area: "Palwal",
+    name: "Siddharth Jain",
+    reviewCount: "200+ reviews",
+    badge: "Local Guide",
     rating: 5,
-    treatment: "Knee Pain (Osteoarthritis)",
-    body: "I was struggling to climb stairs for almost a year. After 8 sessions at Physio Grade, my knees feel stronger than they have in a decade. The therapists actually listen and explain everything.",
+    treatment: "Neck & Cervical Pain",
+    timeAgo: "2 weeks ago",
+    featured: true,
+    body: "I had neck and cervical pain and got wonderful physio treatment here. Both Dr. Mukesh and Dr. Renu are very skilled in their field — Dr. Mukesh is excellent with physiotherapy and Dr. Renu is outstanding in needle treatment. I got relief through a combination of both. Definitely recommend to everyone seeking physio support.",
   },
   {
-    name: "Pooja Verma",
-    age: 34,
-    area: "Hodal",
+    name: "Harshappy",
+    reviewCount: "4 reviews",
     rating: 5,
-    treatment: "Slipped Disc",
-    body: "I was scared I'd need surgery for my slipped disc. The team here designed a recovery plan I could follow even with my work schedule. Pain-free and back to normal life now.",
+    treatment: "Post Knee Replacement (Home Visit)",
+    timeAgo: "5 months ago",
+    body: "Dr. Mukesh provided excellent home visit therapy after my mother's TKR (knee replacement) surgery. He was highly professional and very helpful in managing her pain and quickly getting her back on her feet. The home service made recovery so much easier. Highly recommend!",
   },
   {
-    name: "Mr. Ahuja",
-    age: 72,
-    area: "Palwal",
+    name: "Ashok Kumar",
+    reviewCount: "2 reviews",
     rating: 5,
-    treatment: "Post-Stroke Rehab (Home Visit)",
-    body: "My father was bedridden after a stroke. The home-visit physiotherapy made all the difference — he's now walking with a stick and his confidence is back. Caring, professional team.",
+    treatment: "Brain Haemorrhage Recovery",
+    timeAgo: "1 year ago",
+    body: "I suffered a brain haemorrhage and was on a ventilator for 3 months. After initial physiotherapy at Sarvodaya Hospital, I continued my recovery at Physio Grade. Thanks to their dedicated treatment and consistent sessions, I went from being completely bedridden to walking again. I am deeply grateful to the entire team.",
   },
   {
-    name: "Aman Singh",
-    age: 27,
-    area: "Faridabad",
+    name: "Rahul Kumar",
+    reviewCount: "4 reviews",
     rating: 5,
-    treatment: "Sports Injury (Hamstring)",
-    body: "Pulled my hamstring badly during a cricket match. The therapists got me back on the field in 5 weeks with a proper rehab plan. Zero re-injuries since.",
+    treatment: "General Physiotherapy",
+    timeAgo: "5 months ago",
+    body: "Physio Grade is the best physiotherapy centre in Palwal district. Treatment is done using modern machines and the doctors are highly knowledgeable. The results speak for themselves — truly impressive.",
   },
   {
-    name: "Sunita Devi",
-    age: 48,
-    area: "Palwal",
+    name: "Ravinder K",
+    reviewCount: "6 reviews",
     rating: 5,
-    treatment: "Frozen Shoulder",
-    body: "I couldn't even lift my arm to comb my hair. Within 6 weeks the stiffness had reduced dramatically. They are patient, methodical, and they truly care.",
+    treatment: "Back & Leg Pain",
+    timeAgo: "1 year ago",
+    body: "Amazing physiotherapy centre — very good experience of pain relief. I got therapy for my back and leg pain and the improvement was noticeable within just a few sessions. Great team and a clean, comfortable clinic.",
   },
   {
-    name: "Vikram Yadav",
-    age: 41,
-    area: "Hassanpur",
+    name: "Karan Kholi",
     rating: 5,
-    treatment: "Cervical Spondylosis",
-    body: "Years of desk work had wrecked my neck. The combination of manual therapy and posture training they gave me has been life-changing. Highly recommended.",
+    treatment: "General Consultation",
+    timeAgo: "1 year ago",
+    body: "Good, experienced doctors. The clinic has a professional and welcoming environment. Felt well cared for throughout my treatment.",
   },
 ];
