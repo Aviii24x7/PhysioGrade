@@ -14,12 +14,14 @@ export const site = {
     "Hi, I'd like to book a physiotherapy session at Physio Grade.",
   email: "9050919288mukki@gmail.com",
   address: {
-    line1: "Near Maharana Pratap Gate, HUDA Chowk, HUDA Sector-2",
+    line1: "HUDA Chowk, HUDA Sector-2",
     line2: "Palwal Rural",
     city: "Palwal",
     state: "Haryana",
     pin: "121102",
     country: "India",
+    // Full address as it appears on Google Business Profile — keep in sync
+    gmb: "huda chowk, HUDA Sector-2, Palwal, Palwalrural, Haryana 121102",
   },
   hours: {
     mondayToSaturday: "9:00 AM – 8:00 PM",

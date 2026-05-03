@@ -5,7 +5,7 @@ type Props = {
   children: ReactNode;
   id?: string;
   eyebrow?: string;
-  title?: string;
+  title?: ReactNode;
   subtitle?: string;
   centered?: boolean;
   bg?: "white" | "alt" | "tint" | "primary";

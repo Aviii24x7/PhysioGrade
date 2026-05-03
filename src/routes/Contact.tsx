@@ -78,7 +78,7 @@ export default function Contact() {
                       body: data,
                       headers: { Accept: "application/json" },
                     })
-                      .catch(() => {/* swallow — form is the conversion path */})
+                      .catch(() => {/* swallow — form is the conversion path */ })
                       .finally(() => setSubmitted(true));
                   }}
                 >

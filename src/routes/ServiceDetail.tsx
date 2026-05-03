@@ -27,8 +27,8 @@ export default function ServiceDetail() {
   return (
     <>
       <Seo
-        title={`${service.title} in Palwal — Physio Grade`}
-        description={service.summary}
+        title={`${service.title} in Palwal & Ballabgarh — Physio Grade`}
+        description={`${service.summary} Expert physiotherapy for ${service.shortTitle.toLowerCase()} in Palwal & Ballabgarh, Haryana. Clinic visits and home visits available. Book at Physio Grade — ${service.slug.includes('home') ? 'Palwal' : 'near HUDA Chowk, Palwal'}.`}
         path={`/services/${service.slug}`}
         jsonLd={[
           faqSchema(service.faqs),
