@@ -4,6 +4,7 @@ import { ServicesGrid } from "../components/sections/ServicesGrid";
 import { ConditionsChips } from "../components/sections/ConditionsChips";
 import { HowItWorks } from "../components/sections/HowItWorks";
 // import { VideoGallery } from "../components/sections/VideoGallery"; // Uncomment when YouTube videos are ready
+import { BodyPainMap } from "../components/sections/BodyPainMap";
 import { OurWorkGallery } from "../components/sections/OurWorkGallery";
 import { MeetOurTeam } from "../components/sections/MeetOurTeam";
 import { Testimonials } from "../components/sections/Testimonials";
@@ -30,6 +31,7 @@ export default function Home() {
       <ServicesGrid />
       <ConditionsChips />
       <HowItWorks />
+      <BodyPainMap />
       <OurWorkGallery />
       <MeetOurTeam />
       <Testimonials />

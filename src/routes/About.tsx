@@ -87,10 +87,10 @@ export default function About() {
 
               <div className="flex flex-col sm:flex-row">
                 {/* Photo */}
-                <div className="h-48 w-full overflow-hidden bg-slate-100 sm:h-auto sm:w-56 sm:shrink-0">
+                <div className="aspect-[3/4] w-full overflow-hidden bg-slate-100 sm:aspect-auto sm:h-auto sm:w-56 sm:shrink-0">
                   <img
                     src={doc.photo}
-                    alt={`${doc.name} — ${doc.role} at Physio Grade Palwal (placeholder)`}
+                    alt={`${doc.name} — ${doc.role} at Physio Grade Palwal`}
                     loading="lazy"
                     className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                   />

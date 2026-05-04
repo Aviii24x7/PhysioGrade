@@ -19,7 +19,7 @@ export function Footer() {
             <p className="mt-4 text-sm text-white/70 leading-relaxed">
               {site.shortPitch}
             </p>
-            <div className="mt-5 flex gap-3">
+            {/* <div className="mt-5 flex gap-3">
               <a
                 href={site.socials.instagram}
                 target="_blank"
@@ -47,7 +47,7 @@ export function Footer() {
               >
                 <Youtube className="h-4 w-4" aria-hidden />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Services */}
