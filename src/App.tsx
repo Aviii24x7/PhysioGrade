@@ -34,11 +34,13 @@ export default function App() {
   return (
     <div className="flex min-h-screen flex-col bg-surface">
       <ScrollToTop />
-      <Header />
+      Call @ 7206168859 <br /><hr />
+      Mail @ chauhanavi737@gmail.com
+      {/* <Header /> */}
       <main id="main" className="flex-1">
-        <Suspense fallback={<PageLoader />}>
-          <Routes>
-            <Route path="/" element={<Home />} />
+        {/* <Suspense fallback={<PageLoader />}> */}
+        <Routes>
+          {/* <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<ServicesIndex />} />
             <Route path="/services/:slug" element={<ServiceDetail />} />
@@ -46,12 +48,12 @@ export default function App() {
             <Route path="/videos" element={<Videos />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Suspense>
+            <Route path="*" element={<NotFound />} /> */}
+        </Routes>
+        {/* </Suspense> */}
       </main>
-      <Footer />
-      <FloatingActions />
-    </div>
+      {/* <Footer />
+      <FloatingActions /> */}
+    </div >
   );
 }
